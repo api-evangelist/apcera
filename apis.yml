@@ -1,7 +1,25 @@
 aid: apcera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apcera.png
 name: Apcera
-description: Apcera is a company surfaced as a portfolio company of a16z, dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Apcera was an enterprise container and policy management platform founded in 2012 by
+  Derek Collison, offering a "trusted cloud" runtime that layered fine-grained, policy-driven governance
+  over workloads, containers, and services across hybrid infrastructure. Backed by a16z and DCVC, the
+  company took a majority investment from Ericsson in 2015, was fully acquired by Ericsson in 2016, and
+  the platform was subsequently wound down around 2017. The company is defunct - its primary domain
+  (apcera.com) no longer resolves to a company site (it 301-redirects to an unrelated third party), and
+  there is no live developer portal, API documentation, OpenAPI definition, or reachable API host to
+  enrich. This profile is retained as a historical portfolio-lead record only.
 url: https://raw.githubusercontent.com/api-evangelist/apcera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,27 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: apcera.com 301-redirects to techfamed.com (unrelated); no live API surface as of 2026-07-17
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Containers
+- Cloud
+- Policy
+- Governance
+- Infrastructure
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
