@@ -30,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-evidence: apcera.com 301-redirects to techfamed.com (unrelated); no live API surface as of 2026-07-17
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
