@@ -63,3 +63,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/ericsson/
+  name: Ericsson
+  x-relationship: acquired
+  x-evidence: "Backed by a16z and DCVC, the company took a majority investment from Ericsson in 2015, was fully acquired by Ericsson in 2016, and the platform was subsequently wound down around 2017."
